@@ -34,7 +34,7 @@ class AKrxScraper:
         ks = KrxScraper()
         theLastDay = util.get_the_last_day_in_fileBase()
         if not theLastDay:
-            theLastDay = '20220507'
+            theLastDay = '19950502'
         dayLst = util.get_day_list(start=theLastDay, end=end)
 
         for day in tqdm(dayLst):
